@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="Style Estacionamento.css">  
+</head>
+<body>
+    <div class="container">
+        <label >Modelo: </label>
+        <input type="text" id="name" autocomplete="off">
+        <br>
+        <label> Placa: &nbsp; </label>
+        <input type="text" id="licence" autocomplete="off">
+        <br>
+        <br>
+        <button id="send" class="success"> Estacionar carro </button>
+    </div>
+    <br><br>
+    <table class="tabela">
+        <thead>
+            <tr>
+                <th> Modelo </th>
+                <th> Placa </th>
+                <th> Entrada </th>
+                <th> Ações </th>
+            </tr>
+        </thead>
+        <tbody id="garage"></tbody>
+    </table>
+</body>
+
+<script src="Estacionamento.js"></script>
+</html>
