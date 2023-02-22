@@ -1,0 +1,50 @@
+
+#body{
+    padding: 5% 5% 2%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    width: 170px;
+    align-items:stretch;
+    padding: 15px;
+    text-align: left;
+    border-radius: 18px;
+    margin-right: 10px;
+    font-size: 15px;
+    height: 350px;
+    list-style: none;
+    margin-top: 10px;
+    color: rgb(158, 156, 156);
+    background-color: rgba(255, 255, 255, 0.96);
+    box-shadow: 2px 2px 2px 1px rgba(122, 115, 115, 0.8);
+    
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+b{
+    color: black;
+}
+li{
+    margin-top: 9px;
+    text-decoration: underline;
+}
